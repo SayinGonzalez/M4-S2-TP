@@ -9,7 +9,7 @@
 │   │   └── movie.json
 │   ├── /components
 │   │   ├── Header.jsx
-│   │   ├── MovieList.jsx
+│   │   ├── MoviesList.jsx
 │   │   ├── MovieCard.jsx
 │   │   ├── WatchlistModal.jsx
 │   │   ├── MovieCardWatchlist.jsx
