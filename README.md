@@ -1,12 +1,38 @@
-# React + Vite
+## 📁 Estructura del Proyecto
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+```
+/S2-TP
+├── /public/assets/imgMovies
+│   └── movie.json
+├── /src
+│   ├── /api
+│   │   └── movie.json
+│   ├── /components
+│   │   ├── Header.jsx
+│   │   ├── MovieList.jsx
+│   │   ├── MovieCard.jsx
+│   │   ├── WatchlistModal.jsx
+│   │   ├── MovieCardWatchlist.jsx
+│   │   └── EmptyWatchlist.jsx
+│   ├── /hooks
+│   │   └── useWatchlist.js
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+```
 
-Currently, two official plugins are available:
+## 🧩 Funcionalidades del Proyecto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Muestra un listado de películas en la pantalla principal.
+- Se pueden agregar y quitar las películas a una Watchlist desde la pantalla principal.
+- Se puede acceder a la watchlist desde el botón en la pantalla principal.
+- Muestra las peliculas guardadas en un modal.
+- Permite quitar las peliculas guardadas desde el modal.
+- Mantiene el listado de peliculas guardadas aunque se recargue o se cierre la página.
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologías utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React con Vite
+- Tailwind CSS
+- Boostrap Icons
+
