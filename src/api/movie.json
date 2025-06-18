@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Fantastic Beasts",
+    "img": "img_01"
+  },
+  {
+    "id": 2,
+    "name": "Naruto Shippuden",
+    "img": "img_02"
+  },
+  {
+    "id": 3,
+    "name": "Hachiko",
+    "img": "img_03"
+  },
+  {
+    "id": 4,
+    "name": "One Piece",
+    "img": "img_04"
+  },
+  {
+    "id": 5,
+    "name": "Demon Slayer",
+    "img": "img_05"
+  },
+  {
+    "id": 6,
+    "name": "Alice in Borderland",
+    "img": "img_06"
+  },
+  {
+    "id": 7,
+    "name": "Pretty Woman",
+    "img": "img_07"
+  },
+  {
+    "id": 8,
+    "name": "Maze Runner",
+    "img": "img_08"
+  },
+  {
+    "id": 9,
+    "name": "Sinsajo",
+    "img": "img_09"
+  },
+  {
+    "id": 10,
+    "name": "Anora",
+    "img": "img_10"
+  },
+  {
+    "id": 11,
+    "name": "Loco y Estúpido Amor",
+    "img": "img_11"
+  },
+  {
+    "id": 12,
+    "name": "Como Entrenar a tu Dragón",
+    "img": "img_12"
+  }
+]
