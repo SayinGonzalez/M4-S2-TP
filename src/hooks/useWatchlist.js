@@ -17,6 +17,10 @@ export function useWatchlist(watchlist, setWatchlist, key = "watchlist") {
     setWatchlist((prevWatchlist) => prevWatchlist.filter(movie => movie.id !== movieId))
   }
 
-  return { addToWatchlist, handleRemoveMovie };
+  const handleRemoveMovieAll = () => {
+    setWatchlist([])
+  }
+
+  return { addToWatchlist, handleRemoveMovie, handleRemoveMovieAll };
 }
 

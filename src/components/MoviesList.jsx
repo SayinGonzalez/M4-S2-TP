@@ -12,6 +12,7 @@ const MoviesList = ({ watchlist, addToWatchlist, handleRemoveMovie }) => {
     }
  */
 
+  // Verifica si la película se encuentra en la lista
   const isInWatchlist = (movieId) =>
     watchlist.some((movie) => movie.id === movieId);
 

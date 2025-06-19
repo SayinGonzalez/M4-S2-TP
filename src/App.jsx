@@ -15,10 +15,12 @@ const App = () => {
     return savedWatchlist ? JSON.parse(savedWatchlist) : [];
   })
 
-  const { addToWatchlist, handleRemoveMovie } = useWatchlist(watchlist, setWatchlist);
+  // Funciones de añadir/remover del custom hook
+  const { addToWatchlist, handleRemoveMovie, handleRemoveMovieAll } = useWatchlist(watchlist, setWatchlist);
 
   return (
     <div className='min-h-screen bg-[#56162C]'>
+      
       <Header setIsModalOpen={setIsModalOpen} />
 
       <WatchlistModal
@@ -27,6 +29,7 @@ const App = () => {
         watchlist={watchlist}
         setWatchlist={setWatchlist}
         handleRemoveMovie={handleRemoveMovie}
+        handleRemoveMovieAll={handleRemoveMovieAll}
       />
 
       <MoviesList

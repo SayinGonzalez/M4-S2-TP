@@ -6,17 +6,17 @@
 │   └── movie.json
 ├── /src
 │   ├── /api
-│   │   └── movie.json
+│   │   └── movie.json                #  Info de las pelis
 │   ├── /components
-│   │   ├── Header.jsx
-│   │   ├── MoviesList.jsx
-│   │   ├── MovieCard.jsx
-│   │   ├── WatchlistModal.jsx
-│   │   ├── MovieCardWatchlist.jsx
-│   │   └── EmptyWatchlist.jsx
+│   │   ├── Header.jsx                #  Contiene el botón para ver "Mi lista"
+│   │   ├── MoviesList.jsx            #  Renderiza la lista de peliculas en inicio
+│   │   ├── MovieCard.jsx             #  Diseño de la Card para las pelis en inicio
+│   │   ├── WatchlistModal.jsx        #  Controla el cierre del modal. Renderiza la lista de peliculas guardadas
+│   │   ├── MovieCardWatchlist.jsx    #  Diseño de la Card para las pelis en modal
+│   │   └── EmptyWatchlist.jsx        #  Diseño del mensaje para la watchlist vacía
 │   ├── /hooks
-│   │   └── useWatchlist.js
-│   ├── App.jsx
+│   │   └── useWatchlist.js           #  Funciones para añadir/remover una peli de la watchlist y guardar en LS
+│   ├── App.jsx                       #  Controla la apertura del modal, inicializa watchlist e importa el hook useWatchlist
 │   ├── main.jsx
 │   └── index.css
 ```
